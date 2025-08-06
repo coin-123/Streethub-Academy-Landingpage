@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+*{
+
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* Custom CSS example */
+.my-custom-bg {
+  background: rgb(12, 45, 8);
+}
+.border-box {
+    /* border: 1px solid rgb(140, 140, 140); */
+        background-color: rgb(12, 45, 8);
+
+}
+
+.borders-box:hover {
+       background-color: rgb(255, 255, 255);
+    color:rgb(81, 177, 70);
+    border: 0.15rem solid rgb(81, 177, 70);
+    /* cursor: pointer; */
+    transition: all 0.3s ease-in-out;
+
+
+}
+
+.greenbtn {
+    background-color: rgb(81, 177, 70);
+    /* border: none; */
+    
+}
+
+
+
+/* for intro section */
+
+.intro {
+    background: radial-gradient( rgba(26, 73, 33, 1), rgb(12, 45, 8), rgb(12, 45, 8));   
+}
+
+
+
+/* for testtimonials styling */
+@layer utilities {
+ 
+/* 👇 Swiper pagination customization with Tailwind classes */
+.swiper-pagination-bullet {
+  @apply  w-1/2 h-5 mx-1 rounded-full bg-blue-500 hover:bg-green-500 transition-all duration-300 ease-in-out ;
+}
+
+.swiper-pagination-bullet-active {
+  @apply scale-305 bg-white ;
+}
+}
+
+
+
+
+
+
+/* for navbr drop down */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
