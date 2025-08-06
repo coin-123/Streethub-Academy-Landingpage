@@ -2,7 +2,7 @@ import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import { Autoplay } from 'swiper/modules';
-import frame1 from '../../assets/frame 89.png'
+import frame1 from '../../assets/frame89.png'
 import frame2 from '../../assets/frame 88.png'        
 import frame3 from '../../assets/frame 86.png'
 import frame4 from '../../assets/frame 87.png'
