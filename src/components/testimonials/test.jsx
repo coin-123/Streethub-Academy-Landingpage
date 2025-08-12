@@ -8,6 +8,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Keyboard, } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import { motion } from 'framer-motion';
 
 const slidesData = [
   { id: 1, imgSrc: frame3, imgAlt: 'Description of frame3' },
@@ -17,7 +18,12 @@ const slidesData = [
 
 const Test = () => {
   return (
-    <section className="flex items-center justify-center w-full h-[680px]" id='testimonials'>
+    <motion.section 
+    initial={{ opacity: 0, y: 50 }}        // start hidden & pushed down
+  whileInView={{ opacity: 1, y: 0 }}     // animate when in view
+  transition={{ duration: 0.8, ease: "easeOut" }}
+  viewport={{ once: true, amount: 0.2 }}
+    className="flex items-center justify-center w-full h-[680px]" id='testimonials'>
       <div className="flex flex-col items-center justify-between w-[80%] h-[590px]">
         {/* Top Images */}
         <div className="flex items-center justify-center w-[80%] h-[10%] relative">
@@ -29,7 +35,7 @@ const Test = () => {
           />
         </div>
 
-        {/* Swiper Section */}
+        {/* Swiper motion.section */}
         <div className="flex items-center justify-center flex-col w-full h-[85%] rounded-[20px] bg-[rgba(12,45,8,1)]">
           <Swiper
             pagination={{
@@ -56,7 +62,7 @@ const Test = () => {
           </Swiper>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

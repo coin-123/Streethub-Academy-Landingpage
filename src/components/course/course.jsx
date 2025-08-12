@@ -4,12 +4,18 @@ import frame2 from '../../assets/image 12.png'
 import frame3 from '../../assets/image 13.png'
 import frame4 from '../../assets/image 14.png'
 import frame5 from '../../assets/image 15.png'
+import { motion } from 'framer-motion'
 
 
 
 const Course = () => {
   return (
-    <section className="flex items-center justify-center w-full h-[1256px] bg-[rgba(237,255,226,1)]" id='courses'>
+    <motion.section
+    initial={{ opacity: 0, y: 50 }}        // start hidden & pushed down
+  whileInView={{ opacity: 1, y: 0 }}     // animate when in view
+  transition={{ duration: 0.8, ease: "easeOut" }}
+  viewport={{ once: true, amount: 0.2 }}
+     className="flex items-center justify-center w-full h-[1256px] bg-[rgba(237,255,226,1)]" id='courses'>
         <div className="flex flex-col items-center justify-around w-full h-full ">
             <div className="flex flex-col items-center justify-center w-[550px] b-pink-600">
                 <h1 className="text-[3.2rem] font-semibold text-center  ">Our coureses</h1>
@@ -73,7 +79,7 @@ const Course = () => {
             </div>
         </div>
         </div>
-    </section>
+    </motion.section>
   )
 }
 

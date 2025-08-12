@@ -1,9 +1,16 @@
 import React from 'react'
 import frame1 from '../../assets/Vector (1).png'
+import { motion } from 'framer-motion'
 
 const Whystrhub = () => {
   return (
-    <section className="flex items-center justify-center bg-[rgba(12,45,8,1)] w-full h-[750px]">
+    <motion.section
+   initial={{ opacity: 0, y: 50 }}        // start hidden & pushed down
+  whileInView={{ opacity: 1, y: 0 }}     // animate when in view
+  transition={{ duration: 0.8, ease: "easeOut" }}
+  viewport={{ once: true, amount: 0.2 }}
+
+    className="flex items-center justify-center bg-[rgba(12,45,8,1)] w-full h-[750px]">
         <div className="flex items-center flex-col w-full h-[] ">
             <h1 className="text-[3.2rem] font-semibold text-center text-white mb-[30px]">Why choose StreetHub Academy</h1>
         <div className="flex flex-wrap items-center justify-center h-[90%] w-full bg-ed-500 gap-10">
@@ -65,7 +72,7 @@ const Whystrhub = () => {
             
             </div>
         </div>
-    </section>
+    </motion.section>
   )
 }
 

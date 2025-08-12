@@ -12,7 +12,8 @@ const Qul = () => {
         ref={ref}
         src={frame1}
         alt=""
-        className={`transition-opacity duration-2000 ${inView ? 'opacity-100 animate-fade-in' : 'opacity-0'}`}
+        className={`transition-opacity duration-2000 ${
+          inView ? 'opacity-100 animate-fade-in' : 'opacity-0'}`}
       />
     </section>
   )

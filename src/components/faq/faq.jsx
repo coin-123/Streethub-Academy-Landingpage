@@ -29,7 +29,8 @@ const Faq = () => {
 
 
   return (
-    <section className="flex items-center justify-center w-full h-[1100px]">
+    <section
+     className="flex items-center justify-center w-full h-[1100px]">
       <div className="flex flex-col items-center justify-between w-[85%] h-[90%]">
         
         {/* Header Image */}

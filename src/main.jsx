@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
+import Streethub from './components/streethub/streethub.jsx'
 import Navbar from './components/navbar/nav.jsx'
 import Intro from './components/intro/intro.jsx'
 import Carousel from './components/carousel/carousel.jsx'
@@ -18,6 +19,7 @@ import Copy from './components/copyright-sec/copy.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <Streethub />
    <Navbar />
    <Intro />
    <Carousel />

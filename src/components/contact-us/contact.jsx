@@ -1,10 +1,16 @@
 import React from 'react'
 import frame1 from '../../assets/Expert.png'
 import frame2 from '../../assets/Image 3.png'
+import { Motion } from 'framer-motion'
 
 const  Contact = () => {
   return (
-   <section className="flex items-center justify-center w-full h-[550px] bg-[rgba(237,255,226,1)] mt-[7rem]">
+   <Motion.section
+   initial={{ opacity: 0, y: 50 }}        // start hidden & pushed down
+  whileInView={{ opacity: 1, y: 0 }}     // animate when in view
+  transition={{ duration: 0.8, ease: "easeOut" }}
+  viewport={{ once: true, amount: 0.2 }}
+   className="flex items-center justify-center w-full h-[550px] bg-[rgba(237,255,226,1)] mt-[7rem]">
     <div className="flex items-center justify-center w-[90%] h-[90%]">
       <div className="flex flex-col justify-around items-center w-1/2 h-full b-red-300">
       <div className="flex items-center justify-center w-full ">  
@@ -16,7 +22,7 @@ const  Contact = () => {
       <img src={frame2} alt="" />
       </div>
     </div>
-   </section>
+   </Motion.section>
   )
 }
 
