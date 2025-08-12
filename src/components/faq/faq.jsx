@@ -1,6 +1,6 @@
 import React from 'react';
 import frame1 from '../../assets/frequently.png';
-import frame2 from '../../assets/frame 68.png';
+import frame2 from '../../assets/frame68.png';
 import frame3 from '../../assets/arrow-down.png'
 import { useInView } from 'react-intersection-observer';
 import { useState } from 'react';

@@ -1,6 +1,6 @@
 import React from 'react';
 import frame1 from '../../assets/test1.png';
-import frame2 from '../../assets/image 2.png';
+import frame2 from '../../assets/image2.png';
 import frame3 from '../../assets/unsplash.png';
 import frame4 from '../../assets/jessica.png';
 import frame5 from '../../assets/jesstext.png';

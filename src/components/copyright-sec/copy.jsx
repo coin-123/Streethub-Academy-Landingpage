@@ -1,5 +1,5 @@
 import React from 'react'
-import copy from '../../assets/Frame 26.png'
+import copy from '../../assets/Frame26.png'
 
 const Copy = () => {
   return (

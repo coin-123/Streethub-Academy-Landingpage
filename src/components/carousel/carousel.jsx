@@ -3,12 +3,12 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import { Autoplay } from 'swiper/modules';
 import frame1 from '../../assets/frame89.png'
-import frame2 from '../../assets/frame 88.png'        
-import frame3 from '../../assets/frame 86.png'
-import frame4 from '../../assets/frame 87.png'
-import frame5 from '../../assets/frame 97.png'
-import frame6 from '../../assets/frame 98.png'
-import frame7 from '../../assets/frame 99.png'
+import frame2 from '../../assets/frame88.png'        
+import frame3 from '../../assets/frame86.png'
+import frame4 from '../../assets/frame87.png'
+import frame5 from '../../assets/frame97.png'
+import frame6 from '../../assets/frame98.png'
+import frame7 from '../../assets/frame99.png'
 
 const Carousel = () => {
   return (

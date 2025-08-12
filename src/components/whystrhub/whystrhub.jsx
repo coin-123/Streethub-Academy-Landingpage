@@ -1,5 +1,5 @@
 import React from 'react'
-import frame1 from '../../assets/Vector (1).png'
+import frame1 from '../../assets/Vector1.png'
 import { motion } from 'framer-motion'
 
 const Whystrhub = () => {

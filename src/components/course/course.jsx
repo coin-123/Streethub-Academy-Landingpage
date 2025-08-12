@@ -1,9 +1,9 @@
 import React from 'react'
-import frame1 from '../../assets/image 9.png'
-import frame2 from '../../assets/image 12.png'
-import frame3 from '../../assets/image 13.png'
-import frame4 from '../../assets/image 14.png'
-import frame5 from '../../assets/image 15.png'
+import frame1 from '../../assets/image9.png'
+import frame2 from '../../assets/image12.png'
+import frame3 from '../../assets/image13.png'
+import frame4 from '../../assets/image14.png'
+import frame5 from '../../assets/image15.png'
 import { motion } from 'framer-motion'
 
 

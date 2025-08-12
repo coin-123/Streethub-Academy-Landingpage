@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import frame1 from "../../assets/Vector 2.png";
+import frame1 from "../../assets/Vector2.png";
 // import Intro from "./Intro";
 
 const Streethub = () => {

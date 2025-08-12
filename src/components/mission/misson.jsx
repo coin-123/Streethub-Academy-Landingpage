@@ -1,6 +1,6 @@
 import React from 'react'
-import frame1 from '../../assets/Our aim.png'
-import frame2 from '../../assets/Our mission.png'
+import frame1 from '../../assets/Ouraim.png'
+import frame2 from '../../assets/Ourmission.png'
 import { motion } from 'framer-motion'
 
 const Misson = () => {

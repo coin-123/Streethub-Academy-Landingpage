@@ -1,6 +1,6 @@
 
 import React from 'react'
-import Logo from '../../assets/Vector 2.png'
+import Logo from '../../assets/Vector2.png'
 import Arrow from '../../assets/arrow-down.png'
 import { Link } from 'react-scroll'
 

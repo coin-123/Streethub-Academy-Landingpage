@@ -1,11 +1,11 @@
 import React from 'react'
-import Logo from '../../assets/Vector 2.png'
+import Logo from '../../assets/Vector2.png'
 import frame1 from '../../assets/Ojukwu.png'
-import frame2 from '../../assets/Vector (2).png'
-import frame3 from '../../assets/Vector (3).png'
-import frame4 from '../../assets/Vector (4).png'
+import frame2 from '../../assets/Vector-2.png'
+import frame3 from '../../assets/Vector3.png'
+import frame4 from '../../assets/Vector4.png'
 import frame5 from '../../assets/Group.png'
-import frame6 from '../../assets/Vector (5).png'  
+import frame6 from '../../assets/Vector5.png'  
 import frame7 from '../../assets/circum_linkedin.png'
 
 
