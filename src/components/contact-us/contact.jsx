@@ -1,6 +1,6 @@
 import React from 'react'
 import frame1 from '../../assets/Expert.png'
-import frame2 from '../../assets/Image3.png'
+import frame2 from '../../assets/image3.png'
 import { Motion } from 'framer-motion'
 
 const  Contact = () => {
