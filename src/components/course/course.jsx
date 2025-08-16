@@ -59,7 +59,7 @@ const Course = () => {
                 <div className="flex flex-col items-center justify-center w-full h-[335px]">
                     <div className="flex items-center justify-center w-full h-[50%]"> <img src={frame4} alt="" className="w-full h-full" /> </div>
                 <div className="flex flex-col items-center justify-center w-full h-[50%]">
-                    <h1 className='font-bold text-[22px] '>Cybersecurity</h1>
+                    <h1 className='font-bold text-[22px] '>Cyber-security</h1>
                     <p className="text-[22px]">12 Weeks</p>
                     <p className="text-[22px] text-center  w-[70%]">Protect data, systems, and networks with top-notch cybersecurity skill.</p>
                 </div>

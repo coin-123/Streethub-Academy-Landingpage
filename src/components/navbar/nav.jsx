@@ -23,9 +23,11 @@ const Nav = () => {
               <Link to="footer" smooth={true} duration={500} className=" cursor-pointer " >About Us</Link>
               <Link to="#" smooth={true} duration={500} className=" dropdown"><p className='flex items-center justify-center cursor-pointer gap-[5px]'>Courses <img src={Arrow} alt=""  className=''/></p>
               <div className="dropdown-content">
-  <a href="#">Link 1</a>
-  <a href="#">Link 2</a>
-  <a href="#">Link 3</a>
+  <a href="#">Frontend Development</a>
+  <a href="#">Backend Development</a>
+  <a href="#">UI/UX Design</a>
+  <a href="#">Cyber Security</a>
+  <a href="#">Data Analysis</a>
   </div>
               </Link>
               <Link to="testimonials" smooth={true} duration={500} className=" cursor-pointer ">Testimonials</Link>
