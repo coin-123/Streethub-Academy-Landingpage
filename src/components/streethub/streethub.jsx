@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import frame1 from "../../assets/Vector2.png";
 // import Intro from "./intro/intro.jsx";
 // import Intro from "./Intro";
@@ -33,7 +33,7 @@ const Streethub = () => {
     <>
       <AnimatePresence>
         {loading && (
-          <Motion.section
+          <motion.section
             className="flex items-center justify-center w-full h-screen intro fixed top-0 left-0 z-50"
             initial={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -52,7 +52,7 @@ const Streethub = () => {
 
               {/* Typing animation for text */}
               {showText && (
-                <Motion.p
+                <motion.p
                   initial={{ width: 0 }}
                   animate={{ width: "auto" }}
                   transition={{ duration: 2, ease: "linear" }}
@@ -60,21 +60,21 @@ const Streethub = () => {
                 >
                   Welcome To StreetHub Academy 
                  
-                </Motion.p>
+                </motion.p>
               )}
             </div>
-          </Motion.section>
+          </motion.section>
         )}
       </AnimatePresence>
 
       {/* Main content */}
-      <Motion.div
+      <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: loading ? 0 : 1 }}
         transition={{ duration: 0.8, ease: "easeInOut", delay: loading ? 0.8 : 0 }}
       >
         <intro />
-      </Motion.div>
+      </motion.div>
     </>
   );
 };
