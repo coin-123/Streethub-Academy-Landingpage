@@ -18,6 +18,7 @@ const slidesData = [
 
 const Test = () => {
   return (
+
     <motion.section 
     initial={{ opacity: 0, y: 50 }}        // start hidden & pushed down
   whileInView={{ opacity: 1, y: 0 }}     // animate when in view

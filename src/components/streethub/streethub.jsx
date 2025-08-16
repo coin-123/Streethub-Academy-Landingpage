@@ -38,6 +38,7 @@ const Streethub = () => {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.8, ease: "easeInOut" }}
           >
+            
             <div className="flex items-center gap-4">
               {/* Logo animation */}
               <motion.div
