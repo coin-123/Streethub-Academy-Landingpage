@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import frame1 from "../../assets/Vector2.png";
+import Intro from "./intro/intro.jsx";
 // import Intro from "./Intro";
 
 const Streethub = () => {
@@ -72,7 +73,7 @@ const Streethub = () => {
         animate={{ opacity: loading ? 0 : 1 }}
         transition={{ duration: 0.8, ease: "easeInOut", delay: loading ? 0.8 : 0 }}
       >
-        <intro />
+        <Intro />
       </motion.div>
     </>
   );
