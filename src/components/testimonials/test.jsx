@@ -3,7 +3,7 @@ import frame1 from '../../assets/test1.png';
 import frame2 from '../../assets/image2.png';
 import frame3 from '../../assets/unsplash.png';
 import frame4 from '../../assets/Jessica.png';
-import frame5 from '../../assets/jesstext.png';
+import frame5 from '../../assets/Jesstext.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Keyboard, } from 'swiper/modules';
 import 'swiper/css';
