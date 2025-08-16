@@ -16,6 +16,7 @@ const Qul = () => {
           inView ? 'opacity-100 animate-fade-in' : 'opacity-0'}`}
       />
     </section>
+    
   )
 }
 
