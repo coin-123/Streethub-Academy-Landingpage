@@ -34,7 +34,7 @@ const Streethub = () => {
       <AnimatePresence>
         {loading && (
           <motion.section
-            className="flex items-center justify-center w-full h-screen intro fixed top-0 left-0 z-50 "
+            className="flex items-center justify-center w-full h-screen intro fixed top-0 left-0 z-50 animated "
             initial={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.8, ease: "easeInOut" }}

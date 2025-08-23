@@ -103,6 +103,14 @@
 @media screen and (max-width: 450px) {
 
   /* animated section */
+
+  .animated{
+    width: 100vw;
+    height: 100vh;
+  }
+  
+
+
   .streettext{
     font-size: 1rem;
 
