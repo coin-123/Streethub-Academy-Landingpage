@@ -90,3 +90,91 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+
+
+
+/* media screen section */
+
+.ham-bugger{
+  display: none;
+}
+
+@media screen and (max-width: 450px) {
+
+  /* animated section */
+  .streettext{
+    font-size: 1rem;
+
+  }
+
+
+
+
+
+
+  /* Navbar section */
+  .ham-bugger{
+  display: block;
+  display: flex;
+
+  }
+
+  .desktop{
+    display: none;
+  }
+
+
+
+
+  /* intro section */
+
+  .introsec{
+    /* margin-bottom: 3rem; */
+  }
+
+  .parara{
+    width: 98%;
+  }
+
+  .para{
+    width: 90%;
+  }
+
+  .introhead{
+    font-size:1.8rem ;
+  }
+  .introtex{
+    font-size: 0.8rem;
+  }
+
+  .btnholder{
+    width: 95%;
+
+  }
+
+
+
+
+  /* slide section */
+
+  .slide{
+    display: none;
+  }
+
+
+  /* why choose section */
+
+  .whychoose{
+    height: auto;
+  }
+
+  .whychoosetext{
+    padding-top: 15px;
+    font-size: 1.6rem;
+  }
+
+
+
+
+}

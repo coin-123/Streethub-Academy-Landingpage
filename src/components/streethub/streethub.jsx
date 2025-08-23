@@ -34,7 +34,7 @@ const Streethub = () => {
       <AnimatePresence>
         {loading && (
           <motion.section
-            className="flex items-center justify-center w-full h-screen intro fixed top-0 left-0 z-50"
+            className="flex items-center justify-center w-full h-screen intro fixed top-0 left-0 z-50 "
             initial={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.8, ease: "easeInOut" }}
@@ -47,7 +47,7 @@ const Streethub = () => {
                 animate={{ rotate: 0, scale: 1, opacity: 1 }}
                 transition={{ duration: 1 }}
               >
-                <img src={frame1} alt="Loading Logo" />
+                <img src={frame1} alt="Loading Logo" className="streetimg"/>
               </motion.div>
 
               {/* Typing animation for text */}
@@ -56,7 +56,7 @@ const Streethub = () => {
                   initial={{ width: 0 }}
                   animate={{ width: "auto" }}
                   transition={{ duration: 2, ease: "linear" }}
-                  className=" text-white overflow-hidden whitespace-nowrap border-r-2 border-white pr-1 text-[2rem] font-semibold"
+                  className="streettext text-white overflow-hidden whitespace-nowrap border-r-2 border-white pr-1 text-[2rem] font-semibold"
                 >
                   Welcome To StreetHub Academy 
                  

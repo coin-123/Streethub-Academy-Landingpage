@@ -10,9 +10,9 @@ const Whystrhub = () => {
   transition={{ duration: 0.8, ease: "easeOut" }}
   viewport={{ once: true, amount: 0.2 }}
 
-    className="flex items-center justify-center bg-[rgba(12,45,8,1)] w-full h-[750px]">
+    className="flex items-center justify-center bg-[rgba(12,45,8,1)] w-full h-[750px] whychoose">
         <div className="flex items-center flex-col w-full h-[] ">
-            <h1 className="text-[3.2rem] font-semibold text-center text-white mb-[30px]">Why choose StreetHub Academy</h1>
+            <h1 className="text-[3.2rem] font-semibold text-center text-white mb-[30px] whychoosetext">Why choose StreetHub Academy</h1>
         <div className="flex flex-wrap items-center justify-center h-[90%] w-full bg-ed-500 gap-10">
             <div className=" flex items-center justify-between pl-[10px] rounded-lg border-[1px] w-[380px] h-[280px] border-white">
               <div className="flex items-top justify-center  h-[75%]"><img src={frame1} alt="" className=" w-[50px] h-[47px]" /></div>

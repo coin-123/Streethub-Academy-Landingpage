@@ -12,7 +12,7 @@ import frame7 from '../../assets/Frame99.png'
 
 const Carousel = () => {
   return (
-      <div className="flex items-center justify-center g-red-700 w-full h-[fit-content] relative -top-[120px]">
+      <div className="flex items-center justify-center g-red-700 w-full h-[fit-content] relative -top-[120px] slide">
               <Swiper
               modules={[Autoplay]}
   loop={true}

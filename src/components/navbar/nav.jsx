@@ -6,8 +6,8 @@ import { Link } from 'react-scroll'
 
 const Nav = () => {
   return (
-    <section className="flex items-center justify-center w-full h-24 my-custom-bg">
-        <div className="flex items-center justify-between h-full w-4/5">
+    <section className="flex items-center justify-center w-fulll h-24 my-custom-bg ">
+        <div className="flex items-center justify-between h-full w-4/5 desktop" >
                     <div className="flex items-center justify-center gap-3.5 h-4/5 w-52">
               <div className="logos">
                     <img src={Logo} alt="" className="logo" />
@@ -45,8 +45,42 @@ const Nav = () => {
 <button className="greenbtn text-white w-27 h-1/2 items-center justify-center rounded-lg cursor-pointer borders-box border-0">Sign In</button>         
    <button className="text-white w-27 h-1/2 items-center justify-center rounded-lg borders-box cursor-pointer border-[1px] border-gray-100">Sign Up</button>
             </div>
+          
 
         </div>
+
+
+        {/* mobile section */}
+
+          <div className="flex items-center justify-between w-[95%] h-full  ham-bugger ">
+
+
+          {/* logo section */}
+
+          <div className="flex items-center justify-center">
+            <img src={Logo} alt="" className="" />
+            <div className="logotexts">
+                    <h1 className="text-white font-semibold text-2xl" >StreetHub</h1>
+                    <p className="text-white text-2xl">Academy</p>
+                </div>
+
+
+            </div>
+
+
+
+
+          {/* hambugger section */}
+          
+          <div className="flex flex-col items-center justify-center w-[25px] h-[50px] cursor-pointer gap-[5px] ">
+              <span className="w-full h-[2px] bg-white"></span>
+              <span className="w-full h-[2px] bg-white"></span>
+              <span className="w-full h-[2px] bg-white"></span>
+
+            </div>
+          
+          
+          </div>
     </section>
   )
 }
