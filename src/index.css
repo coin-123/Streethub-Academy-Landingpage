@@ -139,10 +139,18 @@
 
   .introsec{
     /* margin-bottom: 3rem; */
-  }
+    padding-top: 6rem;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    
 
   .parara{
     width: 98%;
+    margin-top: 0;
   }
 
   .para{
