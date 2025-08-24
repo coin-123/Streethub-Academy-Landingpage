@@ -3,6 +3,7 @@
 *{
 
     font-family: 'Poppins', sans-serif;
+    /* overflow: hidden; */
 }
 
 
@@ -100,15 +101,19 @@
   display: none;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 841px) {
 
   /* animated section */
 
   .animated{
     width: 100vw;
     height: 100vh;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 50;
    
-    overflow-y: hidden;
+    /* overflow: hidden; */
     /* height: 100vh; */
   }
   
@@ -133,6 +138,10 @@
 
   .desktop{
     display: none;
+  }
+
+  .logodes{
+    font-size: 1rem;
   }
 
 
@@ -192,6 +201,29 @@
     padding-top: 15px;
     font-size: 1.6rem;
   }
+
+
+
+
+}
+
+
+
+
+/* Another screen section */
+
+
+@media screen and (min-width:842px) {
+  .desktop{
+    /* display:; */
+    width: 98%;
+  }
+
+  .logodes{
+    font-size: 1.3rem;
+  }
+
+
 
 
 

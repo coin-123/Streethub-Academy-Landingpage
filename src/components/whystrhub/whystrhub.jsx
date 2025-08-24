@@ -19,7 +19,7 @@ const Whystrhub = () => {
               <div className="flex justify-between w-[78%]  h-[75%]  flex-col ">
                 <h1 className="text-2xl text-white font-bold">Professional courses</h1>
                 <div className=" w-[90%]">
-                  <p className="text-white text-xl">We offer well crafted Professional course that equip you with in-demand skills that are neded to advance your career and knowledge.</p>
+                  <p className="text-white text-l">We offer well crafted Professional course that equip you with in-demand skills that are neded to advance your career and knowledge.</p>
                 </div>
               </div>
             </div>

@@ -13,8 +13,8 @@ const Nav = () => {
                     <img src={Logo} alt="" className="logo" />
                 </div>
                 <div className="logotexts">
-                    <h1 className="text-white font-semibold text-2xl" >StreetHub</h1>
-                    <p className="text-white text-2xl">Academy</p>
+                    <h1 className="text-white font-semibold text-2xl logodes" >StreetHub</h1>
+                    <p className="text-white text-2xl logodes ">Academy</p>
                 </div>
             </div>
 
@@ -75,9 +75,23 @@ const Nav = () => {
           <div className="flex flex-col items-center justify-center w-[25px] h-[50px] cursor-pointer gap-[5px] ">
               <span className="w-full h-[2px] bg-white"></span>
               <span className="w-full h-[2px] bg-white"></span>
-              <span className="w-full h-[2px] bg-white"></span>
-
+              <span className="w-full h-[2px] bg-white">
+                <div className="dropdown-content">
+  <a href="#">Frontend Development</a>
+  <a href="#">Backend Development</a>
+  <a href="#">UI/UX Design</a>
+  <a href="#">Cyber Security</a>
+  <a href="#">Data Analysis</a>
+  </div>
+              </span>
             </div>
+            <div className="dropdown-content">
+  <a href="#">Frontend Development</a>
+  <a href="#">Backend Development</a>
+  <a href="#">UI/UX Design</a>
+  <a href="#">Cyber Security</a>
+  <a href="#">Data Analysis</a>
+  </div>
           
           
           </div>
