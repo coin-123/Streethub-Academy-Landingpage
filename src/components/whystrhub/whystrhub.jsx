@@ -46,7 +46,7 @@ const Whystrhub = () => {
     <motion.section
       initial={{ opacity: 0, y: 50 }} // start hidden & pushed down
       whileInView={{ opacity: 1, y: 0 }} // animate when in view
-      transition={{ duration: 0.8, ease: "easeOut" }}
+      transition={{ duration: 0.5, ease: "easeOut" }}
       viewport={{ once: true, amount: 0.2 }}
       className="flex items-center justify-center bg-[rgba(12,45,8,1)] w-full  whychoose"
     >
