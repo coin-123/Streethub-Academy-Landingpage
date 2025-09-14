@@ -30,7 +30,7 @@ const Faq = () => {
 
   return (
     <section
-     className="flex items-center justify-center w-full h-[1100px]">
+     className="flex items-center justify-center w-full ">
       <div className="flex flex-col items-center justify-between w-[85%] h-[90%]">
         
         {/* Header Image */}
@@ -45,10 +45,10 @@ const Faq = () => {
             inView ? 'opacity-100 animate-fade-in' : 'opacity-0'
           }`}
         >
-          <img src={frame2} alt="FAQ Content" className="h-full z-0 w-[90%]" />
+          <img src={frame2} alt="FAQ Content" className="h-full z-0 w-[90%] hidden sm:block" />
 
           {/* Overlay Box */}
-          <div className="absolute z-10 left-1/2 top-[5850px] w-[74.5%] h-[890px] -translate-x-[465px] -translate-y-2/5 bg-[rgba(12,45,8,1)] rounded-[20px] flex items-center justify-center">
+          <div className=" sm:absolute  sm:z-10 sm:left-1/2  sm:top-[5850px] sm:w-[74.5%] h-auto  sm:-translate-x-[465px] sm:-translate-y-[103%] bg-[rgba(12,45,8,1)] rounded-[20px] flex items-center justify-center">
             <div className="flex flex-col items-center justify-center w-[80%] h-[80%]  ">
              
                   <div className="relative  w-full h-auto">
@@ -60,7 +60,7 @@ const Faq = () => {
                      openIndex === index ? 'border-b-[1px] ' : 'border-b-[0] '
                   }`}
                 >
-                  <p className="text-white text-xl">{faq.question}</p>
+                  <p className="text-white text-[0.8rem] sm:text-xl">{faq.question}</p>
                   <img
                     src={frame3}
                     alt="Toggle"
@@ -74,7 +74,7 @@ const Faq = () => {
                     openIndex === index ? 'max-h-[300px] opacity-100' : 'max-h-0 opacity-0'
                   }`}
                 >
-                  <p className="text-white mt-2">{faq.answer}</p>
+                  <p className="text-white mt-2 text-[0.6rem] sm:text-[1rem]">{faq.answer}</p>
                 </div>
               </div>
             ))}

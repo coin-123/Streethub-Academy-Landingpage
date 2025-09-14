@@ -11,7 +11,7 @@ import frame7 from '../../assets/circum_linkedin.png'
 
 const Footer = () => {
   return (
-    <section className="flex items-center justify-center w-[100vw]  sm:h-[450px] mt-[4rem]  my-custom-bg " id='footer'>
+    <section className="flex items-center justify-center w-[100%]  sm:h-[450px] mt-[4rem]  my-custom-bg " id='footer'>
         <div className="flex flex-col sm:flex-row items-center justify-between w-[90%] h-full">
             <div className="flex flex-col gap-[1rem] ">
                  <div className="flex items-center justify-center gap-3.5 h-4/5 w-52">

@@ -10,12 +10,12 @@ const Misson = () => {
   whileInView={{ opacity: 1, y: 0 }}     // animate when in view
   transition={{ duration: 0.8, ease: "easeOut" }}
   viewport={{ once: true, amount: 0.2 }}
-    className='flex flex-col items-center justify-center w-full h-[900px] bg-[rgba(237,255,226,1)]'>
+    className='flex flex-col items-center justify-center w-full h-[700px] bg-[rgba(237,255,226,1)]'>
         <div className="flex items-center justify-center">
-            <img src={frame1} alt="" className="" />
+            <img src={frame1} alt="" className="h-[65%]" />
         </div>
         <div className="flex items-center justify-center">
-            <img src={frame2} alt="" className="" />
+            <img src={frame2} alt="" className="h-[65%] " />
         </div>
     </motion.section>
   )
