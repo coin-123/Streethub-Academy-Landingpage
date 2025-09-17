@@ -48,7 +48,7 @@ const Whystrhub = () => {
       whileInView={{ opacity: 1, y: 0 }} // animate when in view
       transition={{ duration: 0.5, ease: "easeOut" }}
       viewport={{ once: true, amount: 0.2 }}
-      className="flex items-center justify-center bg-[rgba(12,45,8,1)] w-full  whychoose"
+      className="flex items-center justify-center bg-[rgba(12,45,8,1)] w-full pb-[1.2rem] whychoose "
     >
       <div className="flex items-center flex-col w-full h-[] ">
         <h1 className="text-[3.2rem] font-semibold text-center text-white mb-[30px] whychoosetext">

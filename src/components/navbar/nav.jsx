@@ -38,7 +38,7 @@ const Nav = () => {
   <a href="#">Admin</a>
   </div>
               </Link>
-              <Link to="contact" smooth={true} duration={500} className=" cursor-pointer ">Contact Us</Link>
+              <Link to="contact-us" smooth={true} duration={500} className=" cursor-pointer ">Contact Us</Link>
             </div>
 
             <div className="flex w-[250px] h-full items-center justify-between">
