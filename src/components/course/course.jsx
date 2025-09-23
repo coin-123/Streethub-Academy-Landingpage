@@ -69,7 +69,7 @@ const Course = () => {
           {items.map((item, index) => (
             <div
               key={index}
-              className="flex flex-col items-center justify-between rounded-[20px] w-[80%] sm:w-[400px] h-[454px] bg-[rgba(255,255,255,1)] pb-[12px]"
+              className="flex flex-col items-center justify-between rounded-[20px] w-[80%] sm:w-[400px] h-[454px] sm:bg-[rgba(255,255,255,1)] pb-[12px]"
             >
               <div className="flex flex-col items-center justify-center w-full h-[335px]">
                 <div className="flex items-center justify-center w-full h-[50%]">

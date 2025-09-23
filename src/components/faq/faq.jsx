@@ -78,7 +78,7 @@ const Faq = () => {
   };
 
   return (
-    <section className="flex items-center justify-center w-full mt-[4rem] " id="faq">
+    <section className="flex items-center justify-center w-full sm:h-[auto] mt-[4rem] " id="faq">
       <div className="flex flex-col items-center justify-between w-[85%] h-[90%]">
         {/* Header Image */}
         <div className="flex items-center justify-center mb-[2rem]">
@@ -88,18 +88,19 @@ const Faq = () => {
         {/* Animated Section */}
         <div
           ref={ref}
-          className={`flex flex-col items-center justify-center w-full h-[90%] transition-opacity duration-[1000ms] ${
+          className={`flex flex-col items-center justify-center w-full h-auto transition-opacity duration-[1000ms] bgred-400 ${
             inView ? "opacity-100 animate-fade-in" : "opacity-0"
           }`}
         >
-          <img
+          <div className=" sm:border-[1px] sm:border-[rgba(81,177,70,1)] sm:bg-[#e7ffe5] sm:w-[68%] h-auto flex rounded-[20px]">
+            {/* <img
             src={frame2}
             alt="FAQ Content"
-            className="h-full z-0 w-[80%] hidden sm:block"
-          />
+            className="h-full  z-0 w-[80%] hidden sm:block"
+          /> */}
 
           {/* Overlay Box */}
-          <div className=" sm:absolute  sm:z-10 sm:left-1/2  sm:top-[5850px] sm:w-[67%] h-auto  sm:-translate-x-[48%] sm:-translate-y-[98%] bg-[rgba(12,45,8,1)] rounded-[20px] flex items-center justify-center">
+          <div className=" sm:relative sm:z-10 sm:w-[95%] h-auto sm:-translate-x-[-10%] sm:-translate-y-[-3%] bg-[rgba(12,45,8,1)] rounded-[20px] flex items-center justify-center ">
             <div className="flex flex-col items-center justify-center w-[80%] h-[80%]  ">
               <div className="relative  w-full h-auto">
                 {faqs.map((faq, index) => (
@@ -141,6 +142,7 @@ const Faq = () => {
                 ))}
               </div>
             </div>
+          </div>
           </div>
         </div>
       </div>
