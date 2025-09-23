@@ -12,7 +12,7 @@ import frame7 from '../../assets/circum_linkedin.png'
 const Footer = () => {
   return (
     <section className="flex items-center justify-center w-[100%]  sm:h-[450px] mt-[4rem]  my-custom-bg " id='footer'>
-        <div className="flex flex-col sm:flex-row items-center justify-between w-[90%] h-full">
+        <div className="flex flex-col sm:flex-row md:flex-col items-center md:justify-around justify-between w-[90%] h-full">
             <div className="flex flex-col gap-[1rem] ">
                  <div className="flex items-center justify-center gap-3.5 h-4/5 w-52">
                               <div className="logos">
@@ -27,8 +27,8 @@ const Footer = () => {
                     <img src={frame1} alt="" className='w-[330px]' />
                  </div>
             </div>
-            <div className="flex flex-col sm:flex-row items-center justify-between bg-amber400 w-[67%] h-auto">
-                <div className="flex flex-col justify-between bg-red300 h-[150px]">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between bg-amber400 md:w-[87%] sm:w-[67%] h-auto">
+                <div className="flex flex-col bgred-400 justify-between  h-[150px]">
                     <p className="text-white font-semibold ">Portal</p>
                     <ul className="flex flex-col justify-around font-light h-[120px]">
                        <a href="#" className="text-white">Admin</a>
@@ -48,7 +48,7 @@ const Footer = () => {
                     <p className="text-white font-semibold ">Contact us</p>
                     <ul className="flex flex-col justify-around font-light h-[120px]">
                        <a href="#" className="text-white flex gap-[5px]"> <img src={frame2} alt="" />   08012345678</a>
-                          <a href="#" className="text-white flex gap-[5px]"> <img src={frame3} alt="" /> StreethubAcademy@gmail.com</a>
+                          <a href="#" className="text-white text-[0.9rem] flex gap-[5px]"> <img src={frame3} alt="" /> StreethubAcademy@gmail.com</a>
                             <a href="#" className="text-white flex gap-[5px]"> <img src={frame4} alt="" /> 08012345678</a>
                     </ul>
                 </div>

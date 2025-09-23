@@ -11,7 +11,7 @@ const Whystrhub = () => {
       image: frame1,
     },
     {
-      title: "Expert Instructors",
+      title: "Expert Instructors",  
       description:
         "Learn from industry experts who bring real-world experience and insights to the classroom, ensuring you receive practical knowledge that can be applied immediately.",
       image: frame1,
