@@ -100,7 +100,7 @@ const Faq = () => {
           /> */}
 
           {/* Overlay Box */}
-          <div className=" sm:relative sm:z-10 sm:w-[95%] h-auto sm:-translate-x-[-10%] sm:-translate-y-[-3%] bg-[rgba(12,45,8,1)] rounded-[20px] flex items-center justify-center ">
+          <div className=" sm:relative sm:z-10 sm:w-[100%] h-auto sm:-translate-x-[-3%] sm:-translate-y-[-3%] bg-[rgba(12,45,8,1)] rounded-[20px] flex items-center justify-center ">
             <div className="flex flex-col items-center justify-center w-[80%] h-[80%]  ">
               <div className="relative  w-full h-auto">
                 {faqs.map((faq, index) => (

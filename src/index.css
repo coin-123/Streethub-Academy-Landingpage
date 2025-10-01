@@ -127,12 +127,12 @@
 
 
 
-
-
   /* Navbar section */
   .ham-bugger{
   display: block;
-  display: flex;
+    display: flex;
+    /* box-shadow: 0 0 100px rgba(98, 125, 30, 0.5); */
+    /* transition: all 3s ease-in-out;*/
 
   }
 
@@ -143,6 +143,8 @@
   .logodes{
     font-size: 1rem;
   }
+
+
 
 
 
@@ -202,9 +204,6 @@
     font-size: 1.6rem;
   }
 
-
-
-
 }
 
 
@@ -223,9 +222,33 @@
     font-size: 1.3rem;
   }
 
+}
 
 
 
 
 
+/* tablet screen */
+
+@media screen and (min-width: 640px) and (max-width: 870px) {
+
+  .tablet{
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rd;
+    width: 90%;
+    /* gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: auto; */
+  }
+  .tabletscrn{
+    width: 100%;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
+  }
+
+
+  
 }

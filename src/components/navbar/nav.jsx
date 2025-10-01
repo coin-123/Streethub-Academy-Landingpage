@@ -10,7 +10,7 @@ const Nav = () => {
         <div className="flex items-center justify-between h-full w-4/5 desktop" >
                     <div className="flex items-center justify-center gap-3.5 h-4/5 w-52">
               <div className="logos">
-                    <img src={Logo} alt="" className="logo" />
+                    <img src={Logo} alt="" className="logo " />
                 </div>
                 <div className="logotexts">
                     <h1 className="text-white font-semibold text-2xl logodes" >StreetHub</h1>
