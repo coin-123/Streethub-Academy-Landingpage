@@ -50,7 +50,7 @@ const Whystrhub = () => {
       viewport={{ once: true, amount: 0.2 }}
       className="flex items-center justify-center bg-[rgba(12,45,8,1)] w-full pb-[1.4rem] whychoose "
     >
-      <div className="flex items-center flex-col w-full h-[] ">
+      <div className="flex items-center flex-col w-full h-[]  sm:mt-[4rem] mb-[4rem]">
         <h1 className="text-[3.2rem] font-semibold text-center text-white mb-[30px] whychoosetext">
           Why choose StreetHub Academy
         </h1>
