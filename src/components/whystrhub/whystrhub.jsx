@@ -72,7 +72,7 @@ const Whystrhub = () => {
                   {description.title}
                 </h1>
                 <div className=" w-[90%]">
-                  <p className="text-white text-l mb-[10px] text-center">
+                  <p className="text-white text-l mb-[10px] ">
                     {description.description}
                   </p>
                 </div>
