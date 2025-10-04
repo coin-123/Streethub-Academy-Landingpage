@@ -14,7 +14,7 @@ const Footer = () => {
     <section className="flex items-center justify-center w-[100%]  sm:h-[450px] mt-[4rem]  my-custom-bg " id='footer'>
         <div className="tablet flex flex-col sm:flex-row  md:flex-col  items-center md:justify-around justify-between w-[90%] h-full">
             <div className="flex flex-col gap-[1rem] ">
-                 <div className="flex items-center justify-center gap-3.5 h-4/5 w-52">
+                 {/* <div className="flex items-center justify-center gap-3.5 h-4/5 w-52">
                               <div className="logos">
                                     <img src={Logo} alt="" className="logo w-[55px]" />
                                 </div>
@@ -22,7 +22,7 @@ const Footer = () => {
                                     <h1 className="text-white font-semibold text-[1.2rem]" >StreetHub</h1>
                                     <p className="text-white text-[1.1rem]">Academy</p>
                                 </div>
-                 </div>
+                 </div> */}
                  <div className="flex items-center justify-center">
                     <img src={frame1} alt="" className='w-[330px]' />
                  </div>

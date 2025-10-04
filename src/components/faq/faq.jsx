@@ -92,7 +92,9 @@ const Faq = () => {
             inView ? "opacity-100 animate-fade-in" : "opacity-0"
           }`}
         >
-          <div className=" sm:border-[1px] sm:border-[rgba(81,177,70,1)] sm:bg-[#e7ffe5] sm:w-[68%] h-auto flex rounded-[20px]">
+          <div 
+          className="sm:w-[68%] h-auto flex"
+          >
             {/* <img
             src={frame2}
             alt="FAQ Content"

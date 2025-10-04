@@ -69,7 +69,7 @@ const Course = () => {
           {items.map((item, index) => (
             <div
               key={index}
-              className="flex flex-col items-center justify-between rounded-[20px] w-[80%] sm:w-[400px] h-[454px] sm:bg-[rgba(255,255,255,1)] pb-[12px]"
+              className="flex flex-col items-center justify-between rounded-[20px] w-[80%] sm:w-[300px] h-[auto] sm:bg-[rgba(255,255,255,1)] pb-[12px]"
             >
               <div className="flex flex-col items-center justify-center w-full h-[335px]">
                 <div className="flex items-center justify-center w-full h-[50%]">
@@ -77,9 +77,9 @@ const Course = () => {
                   <img src={item.image} alt="" className="w-full h-full" />{" "}
                 </div>
                 <div className="flex flex-col items-center justify-center w-full h-[50%]">
-                  <h1 className="font-bold text-[22px] ">{item.title}</h1>
-                  <p className="text-[22px]">{item.sub}</p>
-                  <p className=" text-center  w-[70%] sm:text-[1.5rem] 562428">
+                  <h1 className="font-bold sm:text-[22px] ">{item.title}</h1>
+                  <p className="sm:text-[22px]">{item.sub}</p>
+                  <p className=" text-center  w-[70%] sm:text-[1rem]">
                     {" "}
                     {item.description}
                   </p>
