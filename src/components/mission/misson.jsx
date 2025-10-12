@@ -15,7 +15,9 @@ const Misson = () => {
             <img src={frame1} alt="" className="h-[65%]" />
         </div>
         <div className="flex items-center justify-center">
-            <img src={frame2} alt="" className="h-[65%] " />
+            <img 
+            src={frame2} 
+            alt="" className="h-[65%] " />
         </div>
     </motion.section>
   )

@@ -67,8 +67,8 @@ const Whystrhub = () => {
                   className=" w-[50px] h-[47px] "
                 />
               </div>
-              <div className="flex justify-between w-[78%]  h-[75%]  flex-col ">
-                <h1 className="text-2xl text-white font-bold">
+              <div className="flex items-center justify-between sm:w-[78%]  h-[75%]  flex-col ">
+                <h1 className="sm:text-2xl text-[1.2rem] text-white font-bold text-center">
                   {description.title}
                 </h1>
                 <div className=" w-[90%]">

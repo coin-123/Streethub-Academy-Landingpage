@@ -39,7 +39,7 @@ const Test = () => {
   whileInView={{ opacity: 1, y: 0 }}     // animate when in view
   transition={{ duration: 0.8, ease: "easeOut" }}
   viewport={{ once: true, amount: 0.2 }}
-    className="flex items-center justify-center w-full  sm:h-[680px]" id='testimonials'>
+    className="flex justify-center w-full  sm:h-[680px] bg-amber-30 h-[430px] ">
       <div className="flex flex-col items-center sm:justify-between w-[80%] h-[590px]">
         {/* Top Images */}
         <div className="flex items-center justify-center w-[80%] h-[10%] relative">
