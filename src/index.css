@@ -57,6 +57,11 @@
 }
 }
 
+/* for our mission tablet to mobile section */
+.mobile-src{
+  display: none;
+}
+
 
 
 
@@ -251,4 +256,63 @@
 
 
   
+}
+
+
+/* from Tablet to mobile section */
+
+@media screen and (max-width: 850px) {
+
+  .mobile-src{
+    display: block;
+    /* flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  }
+
+
+
+
+  .our-mission-img{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+
+  .mobile-src{
+    display: block;
+    
+    
+    /* 
+    gap: 2rem;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .mobile-src-top{
+    width: 100%;
+    gap: 1rem;
+    margin-bottom: 50px;
+    flex-direction: column;
+  }
+
+  .mobile-src-para{
+    font-size: 0.7rem;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+  }
+
+
+
+
+  .our-mission-img{
+    display: none;
+  }
 }
