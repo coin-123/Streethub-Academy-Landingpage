@@ -309,10 +309,14 @@
     margin: auto;
   }
 
-
-
-
   .our-mission-img{
     display: none;
   }
+}
+
+@media screen and (max-width: 550px) {
+ 
+
+ 
+  
 }
