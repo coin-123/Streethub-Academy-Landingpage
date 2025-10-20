@@ -150,9 +150,9 @@ const Nav = () => {
             initial="hidden"
             animate="visible"
             exit="exit"
-         className="mt-3 flex flex-col  bg-gray-700 p-3 rounded md:hidden absolute top-[4rem] z-[1000] h-[fit-conten] min-w-[10rem] right-[0.5rem]"
+         className="text-white mt-3 flex flex-col  bg-gray-700 p-3 rounded md:hidden absolute top-[4rem] z-[1000] h-[fit-conten] min-w-[10rem] right-[0.5rem]"
         >
-          
+
         <Link
             to="footer"
             smooth={true}
