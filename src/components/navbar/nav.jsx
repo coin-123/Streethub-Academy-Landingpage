@@ -150,7 +150,7 @@ const Nav = () => {
             initial="hidden"
             animate="visible"
             exit="exit"
-         className="text-white mt-3 flex flex-col  bg-[#293628] p-3 rounded md:hidden absolute top-[4rem] z-[1000] h-[fit-conten] min-w-[10rem] right-[0.5rem]"
+         className="text-white mt-3 flex flex-col  bg-[#293628] p-3 gap-[0.7rem] rounded md:hidden absolute top-[4rem] z-[1000] h-[fit-conten] min-w-[10rem] right-[0.5rem]"
         >
 
         <Link
